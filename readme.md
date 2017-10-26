@@ -164,8 +164,9 @@ that you created in **Prerequisites**.
 
         $ gcloud app deploy --version=1 gae/app.yaml \
           gae/cron.yaml
-	  
+	  	  
 	  or if getting error:
+	  
 	$ gcloud app deploy --version=1 gae/app.yaml .\gae/cron.yaml
 	
 
