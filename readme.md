@@ -164,6 +164,10 @@ that you created in **Prerequisites**.
 
         $ gcloud app deploy --version=1 gae/app.yaml \
           gae/cron.yaml
+	  
+	  or if getting error:
+	$ gcloud app deploy --version=1 gae/app.yaml .\gae/cron.yaml
+	
 
 After you deploy the App Engine application it uses the App Engine Cron Service
 to schedule sending messages to Cloud Pub/Sub. If a Cloud Pub/Sub topic
